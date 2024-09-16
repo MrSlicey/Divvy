@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./andre-benz-Mn9Fa_wQH-M-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.container{
+    width: 95vw;
+    height: 95vh;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(205, 191, 191, 0.6);
+}
+.referenceDiv{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controlsDiv{
+    border: 1px solid black;
+    background-color: rgba(205, 191, 191);
+    height: 100%;
+    width: 30%;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#colorInput{
+    width: 50%;
+    border: none;
+}
+.codeSnippet{
+    padding: 10%;
+    background-color: rgba(0,0,0,0.4);
+    width: 60%;
+    border-radius: 30px;
+}
